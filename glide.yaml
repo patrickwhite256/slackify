@@ -1,0 +1,5 @@
+package: github.com/patrickwhite256/slackify
+import:
+- package: golang.org/x/oauth2
+- package: github.com/go-sql-driver/mysql
+  version: ^1.3.0
