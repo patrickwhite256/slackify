@@ -8,10 +8,11 @@ type User struct {
 	_id      *int64 `db:"id"`
 	Username string `db:"username"`
 
-	State         int    `db:"state"`
-	Enabled       bool   `db:"enabled"`
-	PreviousEmoji string `db:"previous_emoji"`
-	SpotifyEmoji  string `db:"spotify_emoji"`
+	State          int    `db:"state"`
+	Enabled        bool   `db:"enabled"`
+	PreviousStatus string `db:"previous_status"`
+	PreviousEmoji  string `db:"previous_emoji"`
+	SpotifyEmoji   string `db:"spotify_emoji"`
 
 	SlackAccessToken    string `db:"slack_access_token"`
 	SpotifyRefreshToken string `db:"spotify_refresh_token"`
