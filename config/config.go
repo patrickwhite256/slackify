@@ -15,6 +15,8 @@ type Config struct {
 	DBUser     string `json:"db_user"`
 	DBPassword string `json:"db_password"`
 	DBDatabase string `json:"db_database"`
+
+	UpdateTime int `json:"update_time_sec"`
 }
 
 func FromFile(filename string) (*Config, error) {
